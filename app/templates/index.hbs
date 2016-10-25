@@ -1,0 +1,13 @@
+<h1>bustle</h1>
+
+
+  {{#each model as |story|}}
+    <div class="story-index">
+      <div class="story-image">
+        {{story.image}}
+      </div>
+      <p>{{story.title}}</p>
+      <br>
+      <p>{{story.author}}</p>
+    </div>
+    {{/each}}

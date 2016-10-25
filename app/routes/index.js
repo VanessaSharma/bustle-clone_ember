@@ -1,0 +1,32 @@
+import Ember from 'ember';
+
+var stories = [{
+  id: 1,
+  title: "How Each Disney Princesses Would Vote Right Now",
+  author:"JULIA BARNETT",
+  content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue purus eu euismod sagittis.",
+  image: "https://typeset-beta.imgix.net/rehost/2016/10/24/bcfded21-3f9b-495d-8332-de10a7cd743b.jpg?w=740&h=436.59999999999997&fit=crop&crop=faces&auto=format&q=70",
+  catagory:"entertainment"
+},
+{
+  id: 2,
+  title: "You're Holding Your Coffee Cup All Wrong",
+  author:"SARA LEVINE",
+  content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue purus eu euismod sagittis.",
+  image:"https://typeset-beta.imgix.net/rehost/2016/10/22/365873e6-c6f7-4591-a491-f0b6bf393395.jpeg?w=740&h=436.59999999999997&fit=crop&crop=faces&auto=format&q=70",
+  catagory: "lifestyle"
+},
+{
+  id: 3,
+  title: "11 Interesting Habits of Charming People",
+  author:"CARINA WOLFF",
+  content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue purus eu euismod sagittis.",
+  image:"https://typeset-beta.imgix.net/rehost/2016/10/24/a99b1c5c-55b8-49a6-8b15-805dbe197326.jpg?w=740&h=436.59999999999997&fit=crop&crop=faces&auto=format&q=70",
+  catagory:"lifestyle"
+},]
+
+export default Ember.Route.extend({
+  model(){
+    return stories;
+  },
+});
