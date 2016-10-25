@@ -13,6 +13,14 @@ Router.map(function() {
   this.route('apps');
   this.route('labs');
   this.route('privacy');
+  this.route('DMCA');
+  this.route('NEWS');
+  this.route('entertainment');
+  this.route('fashion-beauty');
+  this.route('lifestyle');
+  this.route('books');
+  this.route('flowcharts');
+  this.route('story', {path: '/story/:story_id'});
 });
 
 export default Router;

@@ -1,0 +1,13 @@
+<h1>Lifestyle</h1>
+
+
+  {{#each model as |stories|}}
+    <div class="story-index">
+      <div class="story-image">
+        {{stories.image}}
+      </div>
+      <p>{{stories.title}}</p>
+      <br>
+      <p>{{stories.author}}</p>
+    </div>
+    {{/each}}
