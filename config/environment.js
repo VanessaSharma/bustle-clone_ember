@@ -17,10 +17,10 @@ module.exports = function(environment) {
       }
     },
     firebase: {
-    apiKey: "AIzaSyC7ufUUA1RC_FczPAfvw2IeAQkeUjbsKCE",
-    authDomain: "buslte-clone.firebaseapp.com",
-    databaseURL: "https://buslte-clone.firebaseio.com",
-    storageBucket: "buslte-clone.appspot.com",
+      apiKey: "AIzaSyDwZ-ZSe6bdjkRXxWN3vbvvbCfxuN7gRJg",
+     authDomain: "bustle-clone-b9603.firebaseapp.com",
+     databaseURL: "https://bustle-clone-b9603.firebaseio.com",
+     storageBucket: "bustle-clone-b9603.appspot.com",
     },
 
     APP: {
